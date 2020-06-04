@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
 
+import Routes from './routes';
+
+// JSX: Sintaxe XML (HTML) no JavaScript
+
 function App() {
   return (
-    <h1>Bem vindo ao ReactJS!</h1>
+    <Routes />
   );
 }
 
